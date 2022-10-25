@@ -17,13 +17,13 @@ ln -sfnv ~/workshop-sources /tmp/workshop-sources
 
 ```bash
 cd ~/workshop-sources/openjdk-compiler-workshops
-docker compose up -d
+docker compose --project-name compiler-workshop up -d
 ```
 
 - open terminal session
 
 ```bash
-docker exec -it openjdk-compiler-workshops-1 bash
+docker exec -it compiler-workshop-session-1 bash
 ```
 
 ## task 0 : IDE Setup
