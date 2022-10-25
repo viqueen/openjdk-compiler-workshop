@@ -1,8 +1,7 @@
 version: '3.9'
 services:
   workshop:
-    build:
-      dockerfile: Dockerfile
+    image: viqueen/openjdk-compiler-workshops:1.0.0
     entrypoint: /bin/bash
     stdin_open: true
     tty: true
