@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  workshop:
+    build:
+      dockerfile: Dockerfile
+    entrypoint: /bin/bash
+    stdin_open: true
+    tty: true
+    volumes:
+      - ~/workshop-sources/jdk:/tmp/workshop-sources/jdk
+      - ~/workshop-sources/openjdk-compiler-workshops:/tmp/workshop-sources/openjdk-compiler-workshops
