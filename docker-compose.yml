@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   session:
-    image: viqueen/openjdk-compiler-workshops:1.0.0
+    image: viqueen/openjdk-compiler-workshops:jdk-19
     entrypoint: /bin/bash
     stdin_open: true
     tty: true
