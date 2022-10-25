@@ -16,7 +16,7 @@ jenv add build/linux-x86_64-server-release/jdk
 
 - [ ] test it on our maven project
 ```bash
-cd /tmp/workshop-sources/compiler-lint-options
+cd /tmp/workshop-sources/openjdk-compiler-workshops/compiler-lint-options
 mvn compile -P lint-all # should fail build with redundant cast error
 mvn compile -P lint-everything # should fail build with error: invalid flag: -Xlint:everything
 
@@ -40,7 +40,7 @@ emit a warning when it is enabled. We will build out the actual logic in a later
 - [ ] test it on our maven project (notice the maven profile configuration)
 
 ```bash
-cd /tmp/workshop-sources/compiler-lint-options
+cd /tmp/workshop-sources/openjdk-compiler-workshops/compiler-lint-options
 mvn compile -P lint-bad-cast
 ```
 
@@ -53,6 +53,6 @@ in a chain of casts.
 - [ ] test it on our maven project (notice the maven profile configuration)
 
 ```bash
-cd /tmp/workshop-sources/compiler-lint-options
+cd /tmp/workshop-sources/openjdk-compiler-workshops/compiler-lint-options
 mvn compile -P lint-bad-cast
 ```
