@@ -7,7 +7,7 @@
 The symlink is there to help resolve IDE configurations, which we will cover in [Task 0](#task-0--ide-setup)
 
 ```bash
-git clone https://github.com/openjdk/jdk.git --branch jdk-19+25 --depth 1 --no-tags ~/workshop-sources/jdk
+git clone https://github.com/labset/jdk.git --depth 1 --no-tags ~/workshop-sources/jdk
 git clone https://github.com/viqueen/openjdk-compiler-workshops.git ~/workshop-sources/openjdk-compiler-workshops
 
 ln -sfnv ~/workshop-sources /tmp/workshop-sources
